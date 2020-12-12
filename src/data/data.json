@@ -1,0 +1,102 @@
+{
+    "skills": [
+        {
+            "title": "Web Development",
+            "icon": "code",
+            "text": "I have 7 years experience building custom websites across e-commerce platforms, including WordPress, Magento 2, and PrestaShop.",
+            "tools": "HTML5, CSS3, PHP, React.js"
+        },
+        {
+            "title": "Deployment & Hosting",
+            "icon": "data",
+            "text": "These go hand-in-hand with development on the web. I can deploy and optimize your sites to run its best no matter your traffic.",
+            "tools": "GitHub, VIM, Linux, cPanel"
+        },
+        {
+            "title": "Creation & Copywriting",
+            "icon": "bulb",
+            "text": "Have a great idea but not sure what you need? I've written web copy and created plenty of sites from the ground up. Just leave it to me.",
+            "tools": "WordPress, Magento 2, PrestaShop, Balsamiq"
+        }
+    ],
+    "projects": [
+        {
+            "class": "vgr",
+            "title": "Video Game Rescue",
+            "text": "Video Game Rescue sought a full e-commerce store from the ground up. I restructured their information and site design for sales, and connected to their Point of Sale. I used their flashy art to pull the brick and mortar store's character throughout the site.",
+            "link": "https://videogamerescue.com/"
+        },
+        {
+            "class": "fuzion",
+            "title": "FuZion Vapor",
+            "text": "Fuzion Vapor requested a lighter design than their previous dark black site. I both created new assets and reused existing ones to provide a cleaner site with more whitespace, along with custom animations to make products and banners pop.",
+            "link": "https://www.fuzionvapor.com/"
+        },
+        {
+            "class": "at",
+            "title": "Autism Travel",
+            "text": "IBCCES required a new site to promote their brand, built as part of their WordPress multisite network. Using some assets they provided, I designed the site from scratch and modified a search plugin to operate to their liking.",
+            "link": "https://autismtravel.com/"
+        },
+        {
+            "class": "onp",
+            "title": "Florida O&P",
+            "text": "Florida O&P needed a major site overhaul, required use of an existing logo and fonts, and the ability for staff to easily update patient galleries and information. I opted for a lightweight WordPress site, pulling in their existing images, logo, and fonts to create a memorable but direct site for client use.",
+            "link": "https://floridaopservices.com"
+        },
+        {
+            "class": "ll",
+            "title": "Learning Style Quiz",
+            "text": "Using questions and some logic provided, I developed code to derive each learning style, built the quiz and results pages, and implemented graphs through Google Charts. With an emphasis on sharing, I added social media and discussion tools, then customized how the results will display when shared.",
+            "link": "https://www.livelingua.com/quiz/"
+        },
+        {
+            "class": "franklinmech",
+            "title": "Franklin Mech",
+            "text": "Franklin Mechanical Services previously had no online presence, so I delivered a full-stack website setup: domain purchase and setup, site creation, and ssl/security through Cloudflare. As their online needs were currently few, I opted for a simple single-page php landing site - lightweight and to the point.",
+            "link": "https://franklinmech.com/"
+        }
+    ],
+    "testimonials": [
+        {
+            "img": "/images/testimonials/ray.png",
+            "name": "Ray Blakney",
+            "company": "Live Lingua, Rayvensoft",
+            "link": "https://www.livelingua.com/",
+            "text": "As a CEO and former software engineer I had a lot of difficulty finding quality work for the custom software development needs of my company. I was introduced to Chris and Kamryn at Kelsiek Consulting and they are now my go to team for development work. The level of communication, and their ability to work independently is a boon to us so that we can focus on growing our business instead of having to micro-manage the development of new systems. I highly recommend them to anybody looking for team to take on their development work."
+        },
+        {
+            "img": "/images/testimonials/pete.png",
+            "name": "Peter Jensen",
+            "company": "20Twenty Creative",
+            "link": "https://20twentycreative.com/",
+            "text": "Chris and the rest of the team at Kelsiek have been the absolute best partners I have ever worked with they have provided affordable and effective solutions to wide variety of web projects and challenges. It's incredibly rare to find a team that is capable, responsible, and deliver on time but Kelsiek has nailed all three every time we have engaged them. I would highly recommend them for any web project you may have."
+        },
+        {
+            "img": "/images/testimonials/meredith.png",
+            "name": "Meredith Tekin",
+            "company": "IBCCES",
+            "link": "https://ibcces.org/",
+            "text": "Working with Kelsiek Consulting has been easy and they are always quick to respond to needs or questions. We appreciate their efficiency and friendly support! It's truly a pleasure working with their team on projects."
+        },
+        {
+            "img": "/images/testimonials/buddy.png",
+            "name": "Buddy High",
+            "company": "Franklin Mechanical Services",
+            "link": "https://franklinmech.com/",
+            "text": "When my new company needed a webpage I contacted Kelsiek Consulting. They worked with me to provide a wonderful Webpage at a very fair price and in a reasonable length of time. I found them to be very knowledgeable and I highly recommend them to anyone needing their services."
+        },
+        {
+            "img": "/images/testimonials/smiley.png",
+            "name": "Shawn Carleton",
+            "company": "ISD Consulting, Inc",
+            "link": "https://apps.apple.com/us/app/fers-csrs-retirement-estimator/id1062625944",
+            "text": "Kelsiek Consulting was the perfect fit for me to develop a web version of my iPhone app, FERSplus, that could be used from any device. They identified a technology stack and architecture that I could eventually take over. Their approach to problem solving is creative and constructive. And they often brought multiple solutions to the table with input as to which they felt was best. Very collaborative and trust worthy – perfect for getting me off to the right start with my project. I could not have easily done so without them."
+        }
+    ],
+    "contact": {
+        "phone": "904.742.2618",
+        "email": "hello@kelsiekconsulting.com",
+        "resume": "https://docs.google.com/document/d/15cBlpksEQoFAwZwsghxZ_4iKA_Y93Moh-oWbEbwfZ2w/edit?usp=sharing"
+    }
+}
