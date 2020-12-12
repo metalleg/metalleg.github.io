@@ -1,13 +1,13 @@
 {
-  "main.css": "/metalleg/static/css/main.e8aa2ece.chunk.css",
-  "main.js": "/metalleg/static/js/main.b32a38e5.chunk.js",
-  "main.js.map": "/metalleg/static/js/main.b32a38e5.chunk.js.map",
-  "runtime~main.js": "/metalleg/static/js/runtime~main.1690121b.js",
-  "runtime~main.js.map": "/metalleg/static/js/runtime~main.1690121b.js.map",
-  "static/js/2.5cabd0c5.chunk.js": "/metalleg/static/js/2.5cabd0c5.chunk.js",
-  "static/js/2.5cabd0c5.chunk.js.map": "/metalleg/static/js/2.5cabd0c5.chunk.js.map",
-  "index.html": "/metalleg/index.html",
-  "precache-manifest.4a79744de1bcf1076e54c213edfa66da.js": "/metalleg/precache-manifest.4a79744de1bcf1076e54c213edfa66da.js",
-  "service-worker.js": "/metalleg/service-worker.js",
-  "static/css/main.e8aa2ece.chunk.css.map": "/metalleg/static/css/main.e8aa2ece.chunk.css.map"
+  "main.css": "/static/css/main.e8aa2ece.chunk.css",
+  "main.js": "/static/js/main.5fee81b0.chunk.js",
+  "main.js.map": "/static/js/main.5fee81b0.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.5cabd0c5.chunk.js": "/static/js/2.5cabd0c5.chunk.js",
+  "static/js/2.5cabd0c5.chunk.js.map": "/static/js/2.5cabd0c5.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.e148fae18880f28684b9017801965d9d.js": "/precache-manifest.e148fae18880f28684b9017801965d9d.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.e8aa2ece.chunk.css.map": "/static/css/main.e8aa2ece.chunk.css.map"
 }
