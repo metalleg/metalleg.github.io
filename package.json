@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://metalleg.github.io/metalleg",
+  "homepage": "https://metalleg.github.io/",
   "dependencies": {
     "bootstrap-icons": "^1.1.0",
     "gh-pages": "^2.2.0",
