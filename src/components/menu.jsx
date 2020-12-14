@@ -19,7 +19,7 @@ export default class Menu extends Component {
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#" data-nav-section="projects">My Work</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
-                  <li><a href="https://www.linkedin.com/in/dbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
+                  <li><a href="https://www.linkedin.com/in/christopher-kelley-06ab8b24/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 </ul>
               </div>
             </nav>
