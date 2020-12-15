@@ -317,7 +317,7 @@ figure {
           margin-bottom: 20px;
           font-size: 60px;
           line-height: 1.3;
-          font-weight: 700; }
+          font-weight: 100; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
@@ -667,7 +667,6 @@ body.offcanvas {
     border-bottom: 2px solid #4054b2; }
 
 .services {
-  margin-bottom: 80px;
   position: relative;
   z-index: 0; }
   @media screen and (max-width: 768px) {
@@ -966,7 +965,7 @@ body.offcanvas {
       padding: 20px;
       display: block;
       position: relative;
-      height: 300px; }
+      height: 310px; }
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
@@ -1532,6 +1531,9 @@ footer {
 #container-wrap .services .desc p {
   text-align: left;
 }
+.skills {
+  margin-top: 2em;
+}
 
 /* Projects Custom */
 #projects .colorlib-work .project .desc h3 {
@@ -1556,7 +1558,7 @@ footer {
 
 @media screen and (min-width: 768px) {
   #projects .project .desc a {
-    bottom: -20px;
+    bottom: -10px;
     position: absolute;
   }
 }
@@ -1581,7 +1583,7 @@ footer {
 
 /* Fuzion */
 #projects .colorlib-work .project-fuzion {
-  background-image: url("../images/projects/fuzion1.png");
+  background-image: url("../images/projects/fuzion2.png");
 }
 #projects .colorlib-work .project-fuzion:hover {
   /*background: rgba(237, 62, 50, 0.90);*/
@@ -1731,8 +1733,11 @@ p a:active:after {
 }
 
 @media screen and (min-width: 767px) {
-  .colorlib-contact, footer {
+  footer {
     margin-top: 200px;
+  }
+  .colorlib-contact {
+    margin-bottom: 100px;
   }
 }
 
@@ -1752,6 +1757,9 @@ p a:active:after {
 
 /* Mobile */
 @media screen and (max-width: 768px) {
+  table.contact-list td.email a {
+    font-size: 16px;
+  }
   .show-mobile {
     display: block;
   }

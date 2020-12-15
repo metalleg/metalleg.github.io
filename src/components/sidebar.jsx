@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(/images/profile-new.png)'}} />
+              <div className="author-img" style={{backgroundImage: 'url(/images/profile2.png)'}} />
               <h1 id="colorlib-logo">
                 <a href="index.html" className="home">Christopher<br/> Kelley</a>
               </h1>
@@ -28,7 +28,8 @@ export default class Sidebar extends Component {
               <ul className="bottom-menu">
                 <li><a href="https://www.linkedin.com/in/christopher-kelley-06ab8b24/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href={`mailto:${this.props.data.email}`} className="email"><i className="icon-mail"></i></a></li>
-                <li><a href={this.props.data.resume} className="email" target="_blank"><i className="icon-download4"/></a></li>
+                <li><a href={this.props.data.resume} className="email" target="_blank"><i className="icon-file"/></a></li>
+                <li><a href={`tel:${this.props.data.phone}`} className="phone"><i className="icon-phone"/></a></li>
               </ul>
             </nav>
           </aside>

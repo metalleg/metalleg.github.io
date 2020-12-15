@@ -14,7 +14,7 @@ export default class About extends Component {
                       {/*<span className="heading-meta">About Me</span>*/}
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        I'm a project manager turned <strong>front-end developer and designer</strong>. I'm people-focused and usability oriented. <br/><strong>I love solving problems</strong>.
+                        I'm a project manager turned <strong>front-end developer and designer</strong>. I'm people-focused and usability-oriented. <strong>I love solving problems</strong>.
                       </p>
                       <p>
                         I didn't get my start in web design, and because of this I'm more people-focused than your average dev. Content and design should revolve around your audience, and they should be laid out so they're as easy to understand as possible. If that's what you want, I'm your man.
@@ -29,7 +29,7 @@ export default class About extends Component {
               </div>
           </div>
           <div className="colorlib-narrow-content">
-              <div className="row">
+              <div className="row skills">
                 <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                     <h2 className="colorlib-heading">My Skills</h2>
                 </div>

@@ -9,8 +9,8 @@
         {
             "title": "Deployment & Hosting",
             "icon": "data",
-            "text": "These go hand-in-hand with development on the web. I can deploy and optimize your sites to run its best no matter your traffic.",
-            "tools": "GitHub, VIM, Linux, cPanel"
+            "text": "These go hand-in-hand with development on the web. I can deploy and optimize your sites to run their best no matter your traffic.",
+            "tools": "GitHub, VIM, Linux, cPanel, GoDaddy, DigitalOcean"
         },
         {
             "title": "Creation & Copywriting",
@@ -47,7 +47,7 @@
         {
             "class": "ll",
             "title": "Learning Style Quiz",
-            "text": "Using questions and some logic provided, I developed code to derive each learning style, built the quiz and results pages, and implemented graphs through Google Charts. With an emphasis on sharing, I added social media and discussion tools, then customized how the results will display when shared.",
+            "text": "Live Lingua requested a sharable quiz. Using questions and some logic provided, I developed code to derive each learning style, built the quiz and results pages, and implemented graphs through Google Charts. With an emphasis on sharing, I also added social media and discussion tools.",
             "link": "https://www.livelingua.com/quiz/"
         },
         {
@@ -64,6 +64,13 @@
             "company": "Live Lingua, Rayvensoft",
             "link": "https://www.livelingua.com/",
             "text": "As a CEO and former software engineer I had a lot of difficulty finding quality work for the custom software development needs of my company. I was introduced to Chris and Kamryn at Kelsiek Consulting and they are now my go to team for development work. The level of communication, and their ability to work independently is a boon to us so that we can focus on growing our business instead of having to micro-manage the development of new systems. I highly recommend them to anybody looking for team to take on their development work."
+        },
+        {
+            "img": "/images/testimonials/smiley.png",
+            "name": "Shawn Carleton",
+            "company": "ISD Consulting, Inc",
+            "link": "https://apps.apple.com/us/app/fers-csrs-retirement-estimator/id1062625944",
+            "text": "Kelsiek Consulting was the perfect fit for me to develop a web version of my iPhone app, FERSplus, that could be used from any device. They identified a technology stack and architecture that I could eventually take over. Their approach to problem solving is creative and constructive. And they often brought multiple solutions to the table with input as to which they felt was best. Very collaborative and trust worthy – perfect for getting me off to the right start with my project. I could not have easily done so without them."
         },
         {
             "img": "/images/testimonials/pete.png",
@@ -85,18 +92,11 @@
             "company": "Franklin Mechanical Services",
             "link": "https://franklinmech.com/",
             "text": "When my new company needed a webpage I contacted Kelsiek Consulting. They worked with me to provide a wonderful Webpage at a very fair price and in a reasonable length of time. I found them to be very knowledgeable and I highly recommend them to anyone needing their services."
-        },
-        {
-            "img": "/images/testimonials/smiley.png",
-            "name": "Shawn Carleton",
-            "company": "ISD Consulting, Inc",
-            "link": "https://apps.apple.com/us/app/fers-csrs-retirement-estimator/id1062625944",
-            "text": "Kelsiek Consulting was the perfect fit for me to develop a web version of my iPhone app, FERSplus, that could be used from any device. They identified a technology stack and architecture that I could eventually take over. Their approach to problem solving is creative and constructive. And they often brought multiple solutions to the table with input as to which they felt was best. Very collaborative and trust worthy – perfect for getting me off to the right start with my project. I could not have easily done so without them."
         }
     ],
     "contact": {
-        "phone": "904.742.2618",
+        "phone": "904-742-2618",
         "email": "hello@kelsiekconsulting.com",
-        "resume": "https://docs.google.com/document/d/15cBlpksEQoFAwZwsghxZ_4iKA_Y93Moh-oWbEbwfZ2w/edit?usp=sharing"
+        "resume": "../files/resume-2020.pdf"
     }
 }
