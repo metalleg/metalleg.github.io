@@ -82,6 +82,7 @@ figure {
   position: relative; }
 
 #colorlib-aside {
+  overflow: hidden;
   padding-top: 1em;
   padding-bottom: 40px;
   float: left;
@@ -242,9 +243,9 @@ figure {
     #colorlib-main {
       width: 100%;
     }
-    #colorlib-main section {
-      padding: 0 1em;
-    }
+    //#colorlib-main section {
+      //padding: 0 1em;
+    //}
   }
 
 #colorlib-hero {
@@ -1556,6 +1557,12 @@ footer {
   transition: background-size .2s, color .2s !important;
 }
 
+@media screen and (max-width: 768px) {
+  body .project .desc {
+      background: unset;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #projects .project .desc a {
     bottom: -10px;
@@ -1566,85 +1573,133 @@ footer {
   background-size: 100% 100% !important;
   color: #fff !important;
 }
-
-/* VGR */
-#projects .colorlib-work .project-vgr {
-  background-image: url("../images/projects/vgr1.png");
+#projects .colorlib-work .project-format:hover {
+  background: #da432e !important;
 }
-#projects .colorlib-work .project-vgr:hover {
-  /*background: rgba(228, 0, 126, 0.90);*/
-  background: #E4007E;
+#projects .colorlib-work .project-format .desc a {
+  background-image: linear-gradient(#da432e, #da432e) !important;
+  border: 3px solid #da432e !important;
+  color: #da432e;
 }
-#projects .colorlib-work .project-vgr .desc a {
-  background-image: linear-gradient(#E4007E, #E4007E) !important;
-  border: 3px solid #E4007E !important;
-  color: #E4007E;
+#projects .colorlib-work .project-3dd:hover {
+  background: #242424 !important;
 }
-
-/* Fuzion */
-#projects .colorlib-work .project-fuzion {
-  background-image: url("../images/projects/fuzion2.png");
+#projects .colorlib-work .project-3dd .desc a {
+  background-image: linear-gradient(#242424, #242424) !important;
+  border: 3px solid #242424 !important;
+  color: #242424;
 }
-#projects .colorlib-work .project-fuzion:hover {
-  /*background: rgba(237, 62, 50, 0.90);*/
-  background: #ED3E32;
+#projects .colorlib-work .project-peterbrooke:hover {
+  background: #FFEFF3 !important;
 }
-#projects .colorlib-work .project-fuzion .desc a {
-  background-image: linear-gradient(#ED3E32, #ED3E32) !important;
-  border: 3px solid #ED3E32 !important;
-  color: #ED3E32;
+#projects .colorlib-work .project-peterbrooke .desc h3,
+#projects .colorlib-work .project-peterbrooke .desc span {
+  color: #054A89;
 }
-
-/* AutismTravel AT */
-#projects .colorlib-work .project-at {
-  background-image: url("../images/projects/at1.png");
+#projects .colorlib-work .project-peterbrooke .desc a {
+  background-image: linear-gradient(#054A89, #054A89) !important;
+  border: 3px solid #054A89 !important;
+  color: #054A89;
 }
-#projects .colorlib-work .project-at:hover {
-  background: #accc0f;
+#projects .colorlib-work .project-beachbowl:hover {
+  background: #9BDBE1 !important;
 }
-#projects .colorlib-work .project-at .desc a {
-  background-image: linear-gradient(#accc0f, #accc0f) !important;
-  border: 3px solid #accc0f !important;
-  color: #accc0f;
+#projects .colorlib-work .project-beachbowl .desc h3,
+#projects .colorlib-work .project-beachbowl .desc span {
+  color: #343434;
 }
-
-/* Florida OnP */
-#projects .colorlib-work .project-onp {
-  background-image: url("../images/projects/onp1.png");
+#projects .colorlib-work .project-beachbowl .desc a {
+  background-image: linear-gradient(#9BDBE1, #9BDBE1) !important;
+  border: 3px solid #9BDBE1 !important;
+  color: #9BDBE1;
 }
-#projects .colorlib-work .project-onp:hover {
-  background: #178cdd;
+#projects .colorlib-work .project-pdt:hover {
+  background: #662D8F !important;
 }
-#projects .colorlib-work .project-onp .desc a {
-  background-image: linear-gradient(#178cdd, #178cdd) !important;
-  border: 3px solid #178cdd !important;
-  color: #178cdd;
+#projects .colorlib-work .project-pdt .desc a {
+  background-image: linear-gradient(#662D8F, #662D8F) !important;
+  border: 3px solid #662D8F !important;
+  color: #662D8F;
 }
-
-/* LL Quiz */
-#projects .colorlib-work .project-ll {
-  background-image: url("../images/projects/ll1.png");
+#projects .colorlib-work .project-llama:hover {
+  background: #00B388 !important;
 }
-#projects .colorlib-work .project-ll:hover {
-  background: #008964;
+#projects .colorlib-work .project-llama .desc a {
+  background-image: linear-gradient(#00B388, #00B388) !important;
+  border: 3px solid #00B388 !important;
+  color: #00B388;
 }
-#projects .colorlib-work .project-ll .desc a {
-  background-image: linear-gradient(#008964, #008964) !important;
-  border: 3px solid #008964 !important;
-  color: #008964;
+#projects .colorlib-work .project-ashproperties:hover {
+  background: #1F558A !important;
 }
-
-/* Franklin Mechanical */
-#projects .colorlib-work .project-franklinmech {
-  background-image: url("../images/projects/franklinmech1.png");
+#projects .colorlib-work .project-ashproperties .desc a {
+  background-image: linear-gradient(#1F558A, #1F558A) !important;
+  border: 3px solid #1F558A !important;
+  color: #1F558A;
 }
-#projects .colorlib-work .project-franklinmech:hover {
-  background: #C25811;
+#projects .colorlib-work .project-primedrive:hover {
+  background: #682D8F !important;
 }
-#projects .colorlib-work .project-franklinmech .desc a {
-  background-image: linear-gradient(#C25811, #C25811) !important;
-  border: 3px solid #C25811 !important;
-  color: #C25811;
+#projects .colorlib-work .project-primedrive .desc a {
+  background-image: linear-gradient(#682D8F, #682D8F) !important;
+  border: 3px solid #682D8F !important;
+  color: #682D8F;
+}
+#projects .colorlib-work .project-iguana:hover {
+  background: #967f00 !important;
+}
+#projects .colorlib-work .project-iguana .desc a {
+  background-image: linear-gradient(#967f00, #967f00) !important;
+  border: 3px solid #967f00 !important;
+  color: #967f00;
+}
+#projects .colorlib-work .project-nefctats:hover {
+  background: #84114c !important;
+}
+#projects .colorlib-work .project-nefctats .desc a {
+  background-image: linear-gradient(#84114c, #84114c) !important;
+  border: 3px solid #84114c !important;
+  color: #84114c;
+}
+#projects .colorlib-work .project-crossregions:hover {
+  background: #0f2752 !important;
+}
+#projects .colorlib-work .project-crossregions .desc a {
+  background-image: linear-gradient(#0f2752, #0f2752) !important;
+  border: 3px solid #0f2752 !important;
+  color: #0f2752;
+}
+#projects .colorlib-work .project-mastercraft:hover {
+  background: #c28f12 !important;
+}
+#projects .colorlib-work .project-mastercraft .desc a {
+  background-image: linear-gradient(#c28f12, #c28f12) !important;
+  border: 3px solid #c28f12 !important;
+  color: #c28f12;
+}
+#projects .colorlib-work .project-markmoss:hover {
+  background: #2c963e !important;
+}
+#projects .colorlib-work .project-markmoss .desc a {
+  background-image: linear-gradient(#2c963e, #2c963e) !important;
+  border: 3px solid #2c963e !important;
+  color: #2c963e;
+}
+#projects .colorlib-work .project-its:hover {
+  background: #36aea7 !important;
+}
+#projects .colorlib-work .project-its .desc a {
+  background-image: linear-gradient(#36aea7, #36aea7) !important;
+  border: 3px solid #36aea7 !important;
+  color: #36aea7;
+}
+#projects .colorlib-work .project-certifiedroofers:hover {
+  background: #dc352a !important;
+}
+#projects .colorlib-work .project-certifiedroofers .desc a {
+  background-image: linear-gradient(#dc352a, #dc352a) !important;
+  border: 3px solid #dc352a !important;
+  color: #dc352a;
 }
 
 /* Portfolio Custom */
